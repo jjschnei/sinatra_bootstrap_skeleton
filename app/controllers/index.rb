@@ -1,4 +1,8 @@
 get '/' do
-  # Look in app/views/index.erb
   erb :index
 end
+
+# get '/new' do
+#   erb :_email_collection_form
+# end
+
